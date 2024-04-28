@@ -1,0 +1,27 @@
+---
+title: "Introduction to MyAdvancedStatsPackage"
+output: html_vignette
+date: "2024-04-28"
+---
+
+# Introduction to MyAdvancedStatsPackage
+
+Welcome to the introductory vignette for MyAdvancedStatsPackage! In this vignette, we'll provide an overview of the package and demonstrate some of its key features.
+
+## Overview
+
+MyAdvancedStatsPackage is an R package designed for advanced statistical analysis. It includes functions for calculating mean, median, and correlation, as well as sample datasets for demonstration purposes.
+
+## Usage
+
+### Mean Function
+
+``` {r}
+# Load the package
+library(MyAdvancedStatsPackage)
+
+# Calculate the mean of a numeric vector
+mean_value <- mean_function(c(1, 2, 3, 4, 5))
+
+
+```
